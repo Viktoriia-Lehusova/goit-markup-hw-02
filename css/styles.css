@@ -1,0 +1,118 @@
+:root {
+  --background-color: #ffffff;
+  --main-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-color: #757575;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* logo */
+.logo {
+  color: var(--main-text-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--main-text-color);
+}
+.part-logo {
+  color: var(--background-color);
+}
+
+.part-logo:hover,
+.part-logo:focus {
+  color: var(--background-color);
+}
+
+.side-logo {
+  color: var(--accent-color);
+}
+.side-logo:hover,
+.side-logo:focus {
+  color: var(--accent-color);
+}
+a {
+  text-decoration: none;
+}
+/* nav */
+.site-nav .link {
+  color: var(--main-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav .link {
+  color: var(--secondary-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*hero*/
+.hero-title {
+  color: #ffffff;
+}
+
+/* features */
+.features-subtitle {
+  color: var(--main-text-color);
+}
+.features-text {
+  color: var(--secondary-color);
+}
+
+/* title */
+.work-title {
+  color: var(--main-text-color);
+}
+
+/* team */
+.team-title {
+  color: var(--main-text-color);
+}
+.team-subtitle {
+  color: var(--main-text-color);
+}
+.team-text {
+  color: var(--secondary-color);
+}
+
+/* button */
+.button {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+.button.primary {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.adress {
+  color: var(--background-color);
+}
+.adress:hover,
+.adress:focus {
+  color: var(--accent-color);
+}
+.second-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.second-link:hover,
+.second-link:focus {
+  color: var(--accent-color);
+}
