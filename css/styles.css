@@ -90,6 +90,14 @@ a {
   color: var(--secondary-color);
 }
 
+/* portfolio */
+.portfolio-subtitle {
+  color: var(--main-text-color);
+}
+.portfolio-text {
+  color: var(--secondary-color);
+}
+
 /* button */
 .button {
   color: var(--background-color);
@@ -99,7 +107,15 @@ a {
   color: var(--background-color);
   background-color: var(--accent-color);
 }
-
+.button.secondary {
+  color: var(--main-text-color);
+  background-color: #f5f4fa;
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
 /* footer */
 .footer {
   background-color: #2f303a;
