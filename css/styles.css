@@ -65,7 +65,9 @@ a {
 .hero-title {
   color: #ffffff;
 }
-
+.hero {
+  background-color: #2f303a;
+}
 /* features */
 .features-subtitle {
   color: var(--main-text-color);
