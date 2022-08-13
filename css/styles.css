@@ -4,6 +4,9 @@
   --accent-color: #2196f3;
   --secondary-text-color: #757575;
   --footer-color: #2f303a;
+  --team-bg-color: #f5f4fa;
+  --white-rgba-color: rgba(255, 255, 255, 0.6);
+  --black-color: #000000;
   --main-font: Roboto, sans-serif;
 }
 
@@ -94,16 +97,15 @@ body {
 /*hero*/
 .hero-title {
   color: var(--background-color);
-}
-.hero {
-  background-color: var(--footer-color);
-
   letter-spacing: 0.06em;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   text-transform: uppercase;
+}
+.hero {
+  background-color: var(--footer-color);
 }
 
 /* features */
@@ -114,6 +116,7 @@ body {
 }
 
 .features-subtitle {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -140,7 +143,7 @@ body {
 }
 /* team */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--team-bg-color);
 }
 .team-subtitle {
   font-weight: 500;
@@ -181,9 +184,6 @@ body {
   cursor: pointer;
 }
 .button.primary {
-  color: var(--background-color);
-  background-color: var(--accent-color);
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -193,13 +193,13 @@ body {
 }
 .button.primary:hover,
 .button.primary:focus {
-  color: var(--background-color);
-  background-color: var(--accent-color);
+  background: #188ce8;
 }
 .button.secondary {
   color: var(--main-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--team-bg-color);
 
+  letter-spacing: 0.03em;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -207,7 +207,6 @@ body {
 }
 .button.secondary:hover,
 .button.secondary:focus {
-  color: var(--background-color);
   background-color: var(--accent-color);
 }
 /* footer */
@@ -225,7 +224,7 @@ body {
 }
 
 .second-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--white-rgba-color);
 
   text-decoration: none;
   font-style: normal;
